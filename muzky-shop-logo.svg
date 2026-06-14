@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
+  <defs>
+    <linearGradient id="bagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A1A"/>
+      <stop offset="100%" stop-color="#FF3D00"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="220" fill="#0F1115"/>
+
+  <!-- Shopping bag icon -->
+  <g transform="translate(40,40)">
+    <path d="M20 40 L120 40 L112 140 Q116 150 100 150 L40 150 Q24 150 28 140 Z" fill="url(#bagGrad)"/>
+    <path d="M45 40 C45 15 95 15 95 40" fill="none" stroke="#FFD8B0" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="70" cy="95" r="14" fill="#0F1115"/>
+  </g>
+
+  <!-- Text -->
+  <text x="200" y="105" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="56" fill="#FFFFFF" letter-spacing="2">MUZKY</text>
+  <text x="200" y="155" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="36" fill="#FF7A1A" letter-spacing="6">S H O P</text>
+</svg>
